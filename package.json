@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.11"
+  },
+  "name": "ny-times-news",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/main.css",
+    "watch:css": "npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/main.css --watch",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
